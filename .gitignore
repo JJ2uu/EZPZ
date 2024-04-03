@@ -119,3 +119,5 @@ $RECYCLE.BIN/
 *.properties
 log4j.xml
 log4j2.xml
+.classpath
+.project
