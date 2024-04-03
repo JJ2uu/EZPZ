@@ -115,3 +115,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+*.properties
+log4j.xml
+log4j2.xml
