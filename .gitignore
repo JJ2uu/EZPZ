@@ -146,3 +146,4 @@ replay_pid*
 .history
 .ionide
 .target/
+*.properties
