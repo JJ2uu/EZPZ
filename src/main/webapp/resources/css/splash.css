@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#splash {
+	width: 385px;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+}
+
+#splashContent {
+	width: 100%;
+	height: 100%;
+	background: #ff9900;
+	animation: fadeout 1s forwards 1s;
+}
+
+#splashContent > img {
+	 width: 30%;
+	 margin-bottom: 20px;
+}
+
+@media (orientation : landscape) {
+	#splashContent > img {
+		margin-bottom: 10px;
+	}
+}
