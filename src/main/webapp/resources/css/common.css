@@ -70,7 +70,7 @@ a.txt-link{text-decoration:underline;}
 #contents {
 	position: relative;
 	height: 100%;
-	width: 385px;
+	width: 100%;
 }
 
 #header {
@@ -197,41 +197,38 @@ input:not(:focus)::placeholder {
 /****************************************** media ********************************************/
 /* Desktop Device */
 @media screen and (min-width: 1024px) {
-	
+	#contents {
+		width: 1024px;
+	}
 }
 
 /* iPad Pro 12.9 */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
-	
+
 }
 /* iPad Pro 10.9 */
-@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2)) {
-	
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+
 }
 
 /* Tablet Device */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-	
+
 }
 
 /* Mobile Portrait */
 @media screen and (max-width: 480px) and (orientation: portrait) {
-	
+
 }
 
 /* Mobile Landscape */
 @media screen and (max-width: 767px) and (orientation: landscape) {
-	#contents {
-		width: 100%;
-	}
+
 }
 
 /* Mobile Device */
 @media screen and (max-width: 767px) {
 	#innerContent {
 		padding: 0 30px;
-	}
-	#contents {
-		width: 100%;
 	}
 }

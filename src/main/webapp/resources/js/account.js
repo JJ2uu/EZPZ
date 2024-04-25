@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
             var t = document.getElementById('__splash__');
             var layer = t.content.firstElementChild.cloneNode(true);
 
-            var section = document.getElementById('section');
-    
-            section.append(layer);
+            var contents = document.getElementById('contents');
+
+            contents.append(layer);
             setTimeout(function() {
                 layer.remove();
             }, 3000);
