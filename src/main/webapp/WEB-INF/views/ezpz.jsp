@@ -8,6 +8,7 @@
 	<title>EZPZ</title>
 	<link rel="icon" type="image/x-icon" href="<c:url value='/resources/favicon.ico'/>">
 	<link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/common.css"/>">
+	<link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/account.css"/>">
 	<link rel="stylesheet" type="text/css" href="<c:url value="/resources/css/splash.css"/>">
 	<script type="text/javascript" src="<c:url value="/resources/js/vue/vue-2.7.10.js"/>"></script>
 	<script type="text/javascript" src="<c:url value="/resources/js/account.js"/>"></script>

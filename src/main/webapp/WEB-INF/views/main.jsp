@@ -14,9 +14,17 @@
 <body>
 	<div id="section">
 		<div id="contents" class="con-wrap flex column" style="justify-content: center;">
-			<iframe>
-			
-			</iframe>
+			<div style="width: 100%; height: 100%; position: relative;">
+				<div id="header">
+				
+				</div>
+				<iframe id="innerContents">
+				
+				</iframe>
+				<div id="menu">
+				
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
