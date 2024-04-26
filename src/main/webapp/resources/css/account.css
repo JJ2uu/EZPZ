@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
+#accountVue {
+	width: 100%;
+}
+
 #accountVue > .con-wrap {
 	margin-top: 30px;
+}
+
+/****************************************** media ********************************************/
+/* Desktop Device */
+@media screen and (min-width: 1024px) {
+	#accountVue {
+		width: 50%;
+	}
+}
+
+/* Tablet Device */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	#accountVue {
+		width: 50%;
+	}
 }
